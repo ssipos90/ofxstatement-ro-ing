@@ -28,7 +28,7 @@
             "index": "pypi",
             "version": "==0.7.1"
         },
-        "ofxstatement-sample": {
+        "ofxstatement-ing-ro": {
             "editable": true,
             "path": "."
         }

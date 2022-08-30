@@ -10,7 +10,7 @@ with open("README.rst") as f:
     long_description = f.read()
 
 setup(
-    name="ofxstatement-sample",
+    name="ofxstatement-ing-ro",
     version=version,
     author="Andrey Lebedev",
     author_email="andrey@lebedev.lt",
@@ -33,7 +33,7 @@ setup(
     package_dir={"": "src"},
     namespace_packages=["ofxstatement", "ofxstatement.plugins"],
     entry_points={
-        "ofxstatement": ["sample = ofxstatement.plugins.sample:SamplePlugin"]
+        "ofxstatement": ["ingro = ofxstatement.plugins.ingro:IngRoPlugin"]
     },
     install_requires=["ofxstatement"],
     include_package_data=True,
