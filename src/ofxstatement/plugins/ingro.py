@@ -75,7 +75,7 @@ class IngRoParser(CsvStatementParser):
             statement_amount = credit_amount
             statement_type = 'CREDIT'
         else:
-            print("none statement?", line)
+            #print("none statement?", line)
             statement_amount = '0.0'
             statement_type = 'NONE'
 
