@@ -133,7 +133,6 @@ class IngRoParser(CsvStatementParser):
             # This line contains extra details for the current transaction
             # print("***** Adding details: " + details)
             self.currentRecord['details'] = self.currentRecord['details'] + " " + details
-            # TODO: try to establish a transaction ID (assert self.id or self.check_no or self.refnum)
             m = self.refnum_pattern.search(details)
             #print('** Matching: ', details, m)
             if m != None:
